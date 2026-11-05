@@ -116,3 +116,17 @@ npm run format
 ---
 
 **GEYSERPULS** - *Empowering collaborative value creation on Bitcoin*
+
+## How Split Works
+
+Professional split engine in `src/core/splitter.ts`:
+
+- **Validation:** Shares must sum to 10000 bps (100%)
+- **Largest Remainder Method:** Fair distribution of rounding sats
+- **Fee Cap:** Aborts if Lightning fee exceeds cap
+- **Pending Ledger:** Accumulates payouts below minimum
+- **Idempotency:** SHA256 key prevents double-payments
+- **Retry:** Exponential backoff (1s, 2s, 4s, 8s) + Dead Letter Queue
+- **Audit Hash:** Anyone can verify distribution
+
+See implementation: [`src/core/splitter.ts`](src/core/splitter.ts)
