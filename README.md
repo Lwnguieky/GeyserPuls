@@ -94,9 +94,6 @@ npm run lint
 npm run format
 ```
 
-## Contributing
-
-We welcome contributions from developers, designers, and creators worldwide! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## Roadmap
 
@@ -109,16 +106,6 @@ We welcome contributions from developers, designers, and creators worldwide! Ple
 - [ ] Beta testing with pilot communities
 - [ ] Mainnet deployment
 
-## Documentation
-
-Full documentation is available in the [docs/](docs/) directory:
-- [Architecture](docs/ARCHITECTURE.md)
-- [API Reference](docs/API.md)
-- [Lightning Integration Guide](docs/LIGHTNING.md)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
 ## Contact & Community
 
